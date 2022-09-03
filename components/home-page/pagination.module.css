@@ -1,0 +1,44 @@
+.pagination {
+  justify-content: center;
+}
+
+.pagination ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pagination ul li {
+  display: inline-block;
+  width: 30px;
+  border: 1px solid #e2e2e2;
+  display: flex;
+  justify-content: center;
+  font-size: 25px;
+}
+.pagination ul li a {
+  text-decoration: none;
+  color: #337ab7;
+  font-size: 20px;
+}
+
+.pagination ul li.active a {
+  color: white;
+}
+.pagination ul li.active {
+  background-color: #337ab7;
+}
+
+.pagination ul li a:hover,
+.pagination ul li a.active {
+  color: blue;
+}
+
+.page-selection {
+  width: 48px;
+  height: 30px;
+  color: #337ab7;
+}.pagination-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
